@@ -1,0 +1,66 @@
+.TH SYSOPCTL 1 "October 2024" "v0.1.0" "System Administration Commands"
+.SH NAME
+sysopctl \- command-line utility for managing system resources and tasks
+.SH SYNOPSIS
+.B sysopctl
+[\fIoptions\fR] [\fIcommand\fR] [\fIarguments\fR]
+.SH DESCRIPTION
+.B sysopctl
+is a command-line utility designed for managing system services, processes, and system health. It provides an easy way for system administrators to monitor and control system resources.
+
+.SH OPTIONS
+.TP
+.B --help
+Displays the help information and command usage.
+.TP
+.B --version
+Displays the current version of sysopctl.
+
+.SH COMMANDS
+.TP
+.B service list
+Lists all active services, similar to ⁠ systemctl list-units --type=service ⁠.
+.TP
+.B system load
+Displays current system load averages, similar to the output from the ⁠ uptime ⁠ command.
+.TP
+.B service start \fI<service-name>\fR
+Starts the specified service.
+.TP
+.B service stop \fI<service-name>\fR
+Stops the specified service.
+.TP
+.B disk usage
+Shows disk usage statistics by partition, similar to ⁠ df -h ⁠.
+.TP
+.B process monitor
+Monitors real-time process activity, similar to ⁠ top ⁠ or ⁠ htop ⁠.
+.TP
+.B logs analyze
+Summarizes recent critical log entries, utilizing ⁠ journalctl ⁠.
+.TP
+.B backup \fI<path>\fR
+Initiates a backup of the specified path, confirming the operation.
+
+.SH EXAMPLES
+.TP
+To list all running services:
+.B sysopctl service list
+.TP
+To view current system load:
+.B sysopctl system load
+.TP
+To start a service:
+.B sysopctl service start httpd
+.TP
+To check disk usage:
+.B sysopctl disk usage
+.TP
+To backup files:
+.B sysopctl backup /path/to/directory
+
+.SH AUTHOR
+Developed by [Your Name].
+
+.SH LICENSE
+This utility is licensed under the MIT License.
