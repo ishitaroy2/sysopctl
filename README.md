@@ -4,18 +4,12 @@ sysopctl is a command-line tool designed for Linux system administrators to mana
 ## Project Overview
 The project consists of a Bash script that acts as a custom command to enhance system administration capabilities. This tool includes features for managing system services, checking system load, monitoring processes, analyzing logs, and backing up files.
 
-## Command Specifications![Screenshot (245)](https://github.com/user-attachments/assets/195222d3-a313-4c4b-9a5d-d2ddcce6c24f)
-![Screenshot (245)](https://github.com/user-attachments/assets/46b70768-9be1-42c4-b028-37856f84fe0e)
+## Command Specifications
 
-Command Name: sysopctl
-Command Version: v0.1.0![Screenshot (243)](https://github.com/user-attachments/assets/03a38f8c-032c-4aae-8989-830a836ec09f)![Screenshot (246)](https://github.com/user-attachments/assets/534720aa-c9a8-4dd7-97a9-e298e79c9688)
-
-
+Command Version: v0.1.0
 
 ## Prerequisites
-Before using sysopctl, ensure you have the following installed on your system:![Screenshot (241)](https://github.com/user-attachments/assets/eb620fb5-b0c7-48e6-b018-a541f341da02)
-
-
+Before using sysopctl, ensure you have the following installed on your system:
 Linux Operating System: Any modern Linux distribution (e.g., Ubuntu, Fedora, CentOS).
 Bash Shell: sysopctl is implemented as a Bash script, requiring a compatible shell environment.
 
