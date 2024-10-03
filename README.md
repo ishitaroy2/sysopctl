@@ -106,3 +106,8 @@ To show disk usage:- ./sysopctl.sh disk usage
 To monitor processes:- ./sysopctl.sh process monitor
 To analyze logs:- ./sysopctl.sh logs analyze
 To backup files:- ./sysopctl.sh backup /path/to/directory
+![Screenshot (241)](https://github.com/user-attachments/assets/1418c6c9-e814-4f7a-a616-f432256142af)
+![Screenshot (242)](https://github.com/user-attachments/assets/7f41da67-3d68-4190-b15f-15f781f817b2)
+![Screenshot (243)](https://github.com/user-attachments/assets/611f8f79-4749-4fbd-95b2-6815728ec792)
+![Screenshot (244)](https://github.com/user-attachments/assets/094e4525-89c9-45f3-b5b5-3e9505983998)
+![Screenshot (245)](https://github.com/user-attachments/assets/9ec52151-e709-42c8-a953-85ab2a78024a)
